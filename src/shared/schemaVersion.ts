@@ -1,0 +1,2 @@
+export const LEGACY_V034_SCHEMA_VERSION = 2;
+export const CURRENT_SCHEMA_VERSION = 3;

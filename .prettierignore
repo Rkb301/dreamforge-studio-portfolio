@@ -1,0 +1,12 @@
+dist
+node_modules
+coverage
+playwright-report
+test-results
+js/app.js
+css/style.css
+docs/provenance/source-specifications
+
+backups
+js/world-engine.js
+scripts/extract-engine.cjs

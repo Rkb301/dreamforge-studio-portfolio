@@ -1,0 +1,49 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+
+backups/
+*.log
+.dreamforge-server.pid
+.dreamforge-ai.pid
+
+# Secrets and private authentication material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+/credentials/
+/secrets/
+
+# Local world exports and disposable browser profiles (root only)
+/exports/
+/world-exports/
+/world-backups/
+/worlds/
+/saved-worlds/
+/browser-profiles/
+/dreamforge_data.json
+/dreamforge-????-??-??.json
+
+# Local model stores and weight files
+/.ollama/
+/models/
+*.gguf
+*.safetensors
+
+# Generated caches and release bundles
+/.cache/
+/.vite/
+*.tsbuildinfo
+/releases/
